@@ -24,6 +24,7 @@ class BankAccount:
     def withdraw(self, amount):
         self.__balance -= amount
     
+    @staticmethod
     def check_balance(self):
         print("Balance is : ", self.__balance)
 
